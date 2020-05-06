@@ -1,5 +1,5 @@
 {% set name = "ipylayout" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3a50c8e8249f421e19137f2358fcd1212275d95281281ce04eb1a78cf20f1250
+  sha256: aff998310145ee9d06877d5e710ae16e506d5b77040e106f575fbe77da2c4d7c
 
 build:
   noarch: python
